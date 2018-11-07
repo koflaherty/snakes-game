@@ -15,5 +15,3 @@ rendering, and spawning code.
 1) The snake looks like it pauses when it grows which doesn't feel like a rewarding experience. Maybe changing the color
 of non moving body parts or adding a divider would help.
 2) I think it'd be fun if the snake speed increased overtime or as the snake consumes food.
-
-Hope to hear from you soon :-)
