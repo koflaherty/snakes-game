@@ -1,0 +1,44 @@
+body {
+    overflow: scroll;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.game-container {
+    position: relative;
+}
+
+.game-container__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(1, 70, 86, 0.3);
+}
+
+.game-container__overlay__text {
+    font-family: 'Roboto', sans-serif;
+    color: #FAD956;
+    text-transform: capitalize;
+    font-size: 24pt;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.game-window {
+    display:block;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(1, 70, 86);
+}
+
+.instruction-overlay {
+    position: absolute;
+}
